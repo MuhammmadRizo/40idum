@@ -1,0 +1,39 @@
+.carousel {
+  margin: 10px 0 0 0;
+}
+
+.carousel-caption {
+  text-align: start !important;
+  bottom: 3rem !important;
+  right: 50% !important;
+}
+
+.carousel-caption h5 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.carousel-indicators {
+  margin-left: 15% !important;
+  justify-content: start !important;
+  display: block !important;
+}
+
+.dots {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  border: 2px solid #ce4747 !important;
+}
