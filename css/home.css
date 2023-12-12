@@ -37,3 +37,159 @@
 .carousel-indicators .active {
   border: 2px solid #ce4747 !important;
 }
+
+.boss__teachers {
+  display: flex;
+  text-align: center;
+  margin: 20px 0 60px 0;
+}
+
+.boss__teachers img {
+  width: 400px;
+}
+
+.boss__teachers h1 {
+  color: #000;
+  font-family: Poppins;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+}
+
+.boss__teachers p {
+  color: #000;
+  font-family: Poppins;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.teacher__yulduz,
+.teacher__rozimurod {
+  margin-top: 80px;
+}
+
+/* .location__map iframe {
+  margin: 0 50px 0 50px;
+} */
+
+.contact__form {
+  text-align: center;
+  margin: 60px 0 60px 0;
+}
+
+.contact__form form input {
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #3669cc;
+  margin: 0 30px 0 0;
+  height: 50px;
+}
+
+.contact__form form button {
+  width: 150px;
+  border: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  border: 1px solid #3669cc;
+  font-weight: 400;
+  background: transparent;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 50px;
+}
+
+.contact__form form button:hover {
+  box-shadow: inset -37px 37px 37px 37px #3669cc;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer {
+  max-width: 1440px;
+  height: 320px;
+  background: #3669cc;
+  padding: 40px 0 0 0;
+}
+
+.footer__top {
+  display: flex;
+  gap: 40px;
+  padding-left: 100px;
+}
+
+.footer__links ul li {
+  list-style: none;
+  padding: 0 0 20px 0;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer__about-email,
+.footer__about-location,
+.footer__about-phone {
+  display: flex;
+  gap: 5px;
+}
+
+.footer__about-email a,
+.footer__about-location a,
+.footer__about-phone a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer__about-email p,
+.footer__about-location p,
+.footer__about-phone p {
+  margin-top: 10px;
+}
+
+.footer__new-classes {
+  color: #fff;
+  font-family: Poppins;
+}
+
+.footer__new-classes h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.footer__new-classes p {
+  margin: 0;
+}
+
+.footer__new-classes p a {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer__social {
+  margin: 170px 0 0 100px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.copyright a {
+  color: #fff;
+  font-family: Poppins;
+}

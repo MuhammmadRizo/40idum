@@ -1,27 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
 
-    <title>40-IDUM Maktab Web Sahifasi</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <header>
-        <div class="logo">
-          <h2><a href="./index.html">40</a></h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <title>40-IDUM Maktab Web Sahifasi</title>
+</head>
+
+<body>
+  <div class="containe">
+    <header>
+      <div class="logo">
+        <h2><a href="./index.html">40</a></h2>
+      </div>
+
+      <div class="header__links">
+        <ul>
+          <li><a href="./pages/class.html">Sinflar Ro’yhati</a></li>
+          <li><a href="./pages/faq.html">Savollar</a></li>
+          <li><a href="./pages/about.html">Biz Haqimizda</a></li>
+          <li><a href="./pages/pupil.html">Faxri O’quvchilar</a></li>
+        </ul>
+      </div>
+
+      <div class="registration">
+        <p><a href="./pages/register.html">Ro’hatdan o’tish</a></p>
+      </div>
+    </header>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active dots"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button class="dots" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/school.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>40-IDUM</h5>
+            <p>
+              Bu maktab 2010-chi yildan beri faoliyat yuritadi azizlar!
+              Maktabimizda juda ko’pgina sharoitlar yaratilgan. Hozirda 700
+              nafardan ziyod o’qivchilarimiz taqsil olishmoqda!!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/sport.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>40-IDUM</h5>
+            <p>
+              Bu maktab 2010-chi yildan beri faoliyat yuritadi azizlar!
+              Maktabimizda juda ko’pgina sharoitlar yaratilgan. Hozirda 700
+              nafardan ziyod o’qivchilarimiz taqsil olishmoqda!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="boss__teachers">
+      <div class="teacher__yulduz">
+        <img src="./assets/techer.png" alt="" />
+        <h1>K.T.Yulduz</h1>
+        <p>Direktor o‘rinbosari , O‘qituvchi</p>
+      </div>
+
+      <div class="director__shaxira">
+        <img src="./assets/techer.png" alt="" />
+        <h1>Y.D. Shoxira</h1>
+        <p>Direktor, O‘qituvchi</p>
+      </div>
+
+      <div class="teacher__rozimurod">
+        <img src="./assets/techer.png" alt="" />
+        <h1>S.A.Ro’zimurod</h1>
+        <p>Direktor o‘rinbosari , O‘qituvchi</p>
+      </div>
+    </div>
+
+    <!-- <div class="awards">
+
+        <div class="owl-carousel">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
         </div>
 
-        <div class="header__links">
+      </div> -->
+
+    <div class="location__map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1106.5735636549107!2d68.66737612638933!3d40.82796391045061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ade901957f56c5%3A0xb28933110d7816a3!2sShkola%2040!5e1!3m2!1suz!2s!4v1702398099265!5m2!1suz!2s"
+        width="100%" height="680" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="contact__form">
+
+      <form action="">
+          <input type="text" placeholder="Ismingiz">
+
+
+          <input type="number" placeholder="Telefon Raqamingiz">
+          <button class="send__message">Jo’natish</button>
+
+      </form>
+
+    </div>
+
+    <div class="footer">
+      <div class="footer__top">
+        <div class="footer__links">
           <ul>
             <li><a href="./pages/class.html">Sinflar Ro’yhati</a></li>
             <li><a href="./pages/faq.html">Savollar</a></li>
@@ -30,78 +140,44 @@
           </ul>
         </div>
 
-        <div class="registration">
-          <p><a href="./pages/register.html">Ro’hatdan o’tish</a></p>
-        </div>
-      </header>
+        <div class="footer__about">
+          <div class="footer__about-email">
+            <img src="./assets/Email.svg" alt="email">
+            <p><a href="st40maktab@mail.ru">st40maktab@mail.ru</a></p>
+          </div>
 
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active dots"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            class="dots"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/school.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>40-IDUM</h5>
-              <p>
-                Bu maktab 2010-chi yildan beri faoliyat yuritadi azizlar!
-                Maktabimizda juda ko’pgina sharoitlar yaratilgan. Hozirda 700
-                nafardan ziyod o’qivchilarimiz taqsil olishmoqda!!
-              </p>
-            </div>
+          <div class="footer__about-phone">
+            <img src="./assets/Phone.svg" alt="phone">
+            <p><a href="+998990890495">+998990890495</a></p>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/sport.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>40-IDUM</h5>
-              <p>
-                Bu maktab 2010-chi yildan beri faoliyat yuritadi azizlar!
-                Maktabimizda juda ko’pgina sharoitlar yaratilgan. Hozirda 700
-                nafardan ziyod o’qivchilarimiz taqsil olishmoqda!!
-              </p>
-            </div>
+
+          <div class="footer__about-location">
+            <img src="./assets/Location.svg" alt="location">
+            <p><a href="https://maps.app.goo.gl/AbAT1qYor9CR4gqLA">Sirdaryo viloyati Sirdaryo tumani Bahor MFY
+                O'zbekiston ko'chasi 84-uy</a></p>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <div class="footer__new-classes">
+          <h3>Iqtisislashgan Sinflar</h3>
+          <p><a href="#">7-F</a></p>
+          <p><a href="#">7-E</a></p>
+        </div>
+
+        <div class="footer__social">
+          <img src="./assets/Facebook.png" alt="facebook">
+          <img src="./assets/Emaktab.png" alt="emaktab">
+        </div>
       </div>
+
+      <hr>
+
+      <p class="copyright">copyright © by <a href="40idum.uz">40idum.uz</a></p>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
